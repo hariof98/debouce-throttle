@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media (min-width: 900px){
+    .container__class{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 50px;
+    }
+}
+
+input, button{
+    height: 30px;
+}
+
+button{
+    cursor: pointer;
+}
